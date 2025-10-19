@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SkyboxMaterial
+  m_Shader: {fileID: -6465566751694194690, guid: 894557a11a6e22e438ab3221cd521534, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _CloudsNoise:
+        m_Texture: {fileID: 2800000, guid: 619b4dc336539db488a72113026fb428, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GatherTexture2D_3f24786107ce403ca0e302efccf4e3a6_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 729e913abde38e944be4a124ab10869d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2DAsset_26bf619e66cb402ca3743f0de609e6c7_Out_0:
+        m_Texture: {fileID: 2800000, guid: 619b4dc336539db488a72113026fb428, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AboveCloudsHeight: 3
+    - _BUILTIN_QueueControl: 0
+    - _BUILTIN_QueueOffset: 0
+    - _BottomCloudsHeight: 2
+    - _CloudsAmmount: 27.9
+    - _CloudsAmmount_2: 38.9
+    - _CloudsFarTiling: 0.216
+    - _CloudsHeight: 2
+    - _CloudsHeight2: 3.97
+    - _CloudsPower: 0.42
+    - _CloudsTiling: 0.46
+    - _DayNight: 0.5
+    - _FullMoonPercentage: 0.331
+    - _Groubnd_ower: 1
+    - _GroundPower: 0.2
+    - _HorizonBlend: 25
+    - _HorizonPower: 0.156
+    - _MoonMaskSIze: 0.4
+    - _MoonSIze: 0.27
+    - _NadirBlend: 0.05
+    - _SkyPower: 0.995
+    - _StarDensity: 15
+    - _Stars_Power: 158
+    - _SunIntensity: 1000
+    - _SunSize: 0.191
+    - _Sun_s_Size: 0.2
+    - _WindDIrX: 0
+    - _WindDIrY: 1
+    - _WindForce: 2
+    - _WindSpeed: 0
+    - _ZenithBlend: 0.05
+    m_Colors:
+    - _CloudsColor: {r: 1, g: 1, b: 1, a: 0}
+    - _GroundColor: {r: 0.16981131, g: 0.16981131, b: 0.16981131, a: 0}
+    - _HighCloudsColor: {r: 1, g: 1, b: 1, a: 0}
+    - _HorizonColor: {r: 1, g: 0.5851397, b: 0, a: 0}
+    - _HorizonColorColor: {r: 1, g: 0.877023, b: 0.5613208, a: 0}
+    - _HorizonColorDay: {r: 0.6745283, g: 0.8406597, b: 1, a: 0}
+    - _HorizonColorDayBottom: {r: 0.42924526, g: 0.6194968, b: 1, a: 0}
+    - _HorizonColorNight: {r: 0.01735493, g: 0.02155688, b: 0.09433959, a: 0}
+    - _SkyColor: {r: 0.25943398, g: 0.25943398, b: 1, a: 0}
+    - _SkyColorDay: {r: 0.2971698, g: 0.40318322, b: 1, a: 0}
+    - _SkyColorDayTop: {r: 0, g: 0.15383577, b: 1, a: 0}
+    - _SkyColorNight: {r: 0.02224991, g: 0.04770378, b: 0.18867916, a: 0}
+    - _Sun_COlor: {r: 1, g: 0.99037343, b: 0.9481132, a: 0}
+    - _Sun_Color: {r: 1, g: 0.9642093, b: 0.8915094, a: 0}
+    - _WIndDir: {r: 1, g: 1, b: 0, a: 0}
+    - _WIndDirection: {r: 1, g: 1, b: 0, a: 0}
+    - _WIndSirection: {r: 0.5, g: 1, b: 0, a: 0}
+  m_BuildTextureStacks: []
+--- !u!114 &2081700924387929974
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 639247ca83abc874e893eb93af2b5e44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 0
