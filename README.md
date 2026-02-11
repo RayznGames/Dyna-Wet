@@ -26,8 +26,8 @@ This is a **preview version**, designed to demonstrate the core logic, shaders, 
 ### 🌦️ Dynamic Weather System
 - Real-time transitions between weather states (sunny, cloudy, rainy, etc.)
 - Adjustable parameters for **rain intensity**, **wind strength**, and **sunlight power**
-- Smooth, parameter-driven transitions with duration controls (no hard switches)
-- One click bake weather Data, in Editor.
+- Smooth, parameter-driven transitions with duration controls
+- One click bake weather Data, for the start of the level.
 
 ### 🕓 Time of Day System
 - Fully dynamic **24-hour cycle** with adjustable time speed
@@ -40,11 +40,11 @@ This is a **preview version**, designed to demonstrate the core logic, shaders, 
 - Dynamic **sun/moon rendering** with lighting synchronization
 
 ### 💧 Wet Surface Shader FX
-- Procedural **puddle generation** using noise functions  
-- Dynamic **wetness control** that builds up and dries over time  
-- **Rain streaks**, **ripples**, and **droplets** simulated in the shader  
-- Surface reactions that **conform to the mesh shape** dynamically  
-- Adjustable tiling, distortion, and reflectivity to stylize or simulate realism
+- Procedural growing **puddles** generated using Unity's Built-In shader noise functions.
+- Dynamic and auntomatic **world wetness** that builds up and dries over time.
+- **Rain streaks**,and procedural **ripples**, and **droplets** simulated in materials in the pixel shader  
+- Effects that **conform to the mesh shape** dynamically  
+- Adjustable parameters to stylize or achieve hogher realism.
 
 ---
 
@@ -75,20 +75,20 @@ While this version is fully usable, the focus is on **education and transparency
 
 1. Clone or download this repository.
 2. Create a new project in **Unity 6000.2.6f2** with **URP** render pipeline.
-3. Drop the folder "Dyna-Wet_Main" into the project
+3. Drop the folder "Dyna-Wet_Previev" into the project
 4. Go to package manager and Install the **Visual Effect Graph** package.
 5. Load the sample scene, and hit Play to view the system in action.
-6. Use the in-scene **Weather Controller** to switch between weather types and observe transitions.
+6. Use the in-scene **Weather Controller** (TopRight) to switch between weather types and observe transitions.
 
 ---
 
 ## Educational Notes
 
 The Dyna-Wet system integrates:
-- **Lerped environmental values** (rain → wetness → puddle buildup)  
+- **Lerped values** for - rain, wetness, clouds, sun, and puddles buildup 
 - **Dynamic shader updates** through material properties exposed in the shader's.
-- **Noise-based surface wetting**, allowing full procedural puddle control  
-- **VFX Graph integration** for scalable GPU particle rain  
+- **Environmental and Time Controllers** controlling the entire system's behavior trough scripting.   
+- **VFX Graph** for scalable GPU particles used for rain  
 
 If you’re studying  **environmental systems**, or **procedural world effects**, this project is an excellent breakdown of how all those systems interact and interlock between each other.
 
