@@ -44,7 +44,7 @@ This is a **preview version**, designed to demonstrate the core logic, shaders, 
 - Dynamic and auntomatic **world wetness** that builds up and dries over time.
 - **Rain streaks**,and procedural **ripples**, and **droplets** simulated in materials in the pixel shader  
 - Effects that **conform to the mesh shape** dynamically  
-- Adjustable parameters to stylize or achieve hogher realism.
+- Adjustable parameters to stylize or achieve higher realism.
 
 ---
 
