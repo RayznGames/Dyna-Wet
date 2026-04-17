@@ -3,7 +3,6 @@
 
 ![Unity](https://img.shields.io/badge/Engine-Unity_6000.2.6f2-blue.svg)
 ![URP](https://img.shields.io/badge/Render_Pipeline-Universal_Render_Pipeline-Green.svg)
-![License](https://img.shields.io/badge/License-MIT-lightgrey.svg)
 ![Status](https://img.shields.io/badge/Stage-Preview-orange.svg)
 
 ---
